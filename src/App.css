@@ -1,0 +1,172 @@
+.css-1lekzkb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+width: 200px;
+}
+#MenuItem{
+  height: 30px;
+  transition-property: all;
+transition-duration: 0.4s;
+}
+#MenuItem:hover{
+  color: blueviolet;
+background-color: rgb(144, 189, 141);
+border-radius: 20px;
+transition-duration: 0.4;
+}
+#MenuItem:hover,
+#MenuItem:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+}
+
+
+#MenuItem:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  
+  text-shadow: 1px 1px 2px #ff0000; 
+}
+.se1,.se1 > a{
+  color: gray;
+  
+}
+.iconB{
+  color: #ff0000;
+}
+
+/*  */
+
+.hover-fx {
+
+  font-size: 36px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  position: relative;
+  left: 10%;
+  width: 60px;
+  height: 60px;
+  line-height: 84px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 300ms;
+}
+
+.hover-fx:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+  box-shadow: 0 0 0 3px rgb(247, 205, 234);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 300ms;
+}
+
+.hover-fx:hover {
+  color: #00989A;
+  border: 5px solid #c61ba6;
+  box-shadow: 0 0 20px #936a86;
+}
+
+.hover-fx:hover:after {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+
+.IconTop{
+  position: relative; 
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+}
+
+.IconTop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.IconTop:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.IconTop:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+.IconTop2{
+  position: relative; 
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+}
+
+.IconTop2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.IconTop2:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #89876b;
+}
+
+.IconTop2:hover {
+  color: #89876b;
+  box-shadow: 0 0 5px #89876b;
+  text-shadow: 0 0 5px #89876b;
+}
+
+.css-1tmu6hb-MuiButtonBase-root-MuiAccordionSummary-root {
+  min-height: 20px;
+  height: 10px;
+}
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 4px 10px 10px;
+}
